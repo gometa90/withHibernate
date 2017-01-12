@@ -5,19 +5,27 @@
 	<artifactId>work_csv</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-<dependencies>
+	<dependencies>
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>6.0.5</version>
 		</dependency>
 
-		
+
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
 			<version>5.2.5.Final</version>
 		</dependency>
+
+
+			<dependency>
+				<groupId>org.projectlombok</groupId>
+				<artifactId>lombok</artifactId>
+				<version>1.16.12</version>
+				<scope>provided</scope>
+			</dependency>
 
 
 	</dependencies>
